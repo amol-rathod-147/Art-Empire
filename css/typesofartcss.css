@@ -1,0 +1,101 @@
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+/* overflow-x:hidden; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-image: url(images/typesofart.jpg);
+/* background-size: cover; */
+}
+/* .body2{
+    position: relative;
+} */
+.section-container
+{
+    color: black;
+
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+padding-top:2cm ;
+margin-left: 1cm;
+
+}
+.section-container .columns
+{
+flex:0 0 auto;
+width:55%;
+
+}
+.section-container .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+height: 16cm;
+width: 12cm;
+/* margin-left: 2cm; */
+}
+.section-container .columns.content .content-container
+{
+padding:40px 50px;
+}
+
+p:hover{
+    /* color: whitesmoke;
+    background-color: whitesmoke; */
+    transition: 0.4s ease;
+}
+h5{
+    color: black;
+    border-bottom: .2rem solid grey;
+}
+/* remove later  */
+.section-container .columns.content .content-container h5
+{
+font-weight:700;
+font-size:25px;
+margin-bottom:20px;
+}
+.section-container .columns.content .content-container p
+{
+font-weight:400;
+font-size:18px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+cursor: n-resize;
+}
+.right ol{
+    display: block;
+    padding-left: 86%;
+    /* position: relative; */
+   /* position: absolute; */
+    height:100%;
+    justify-content: space-between;
+    
+    /* position: fixed; */
+    padding-top:3cm ;
+   
+}
+.right ol li a{
+    text-decoration: none;
+  color: whitesmoke;
+}
+.right ol li a:hover{
+    color: purple;
+    
+}
+p strong
+{
+color: lightseagreen;
+font-size: 20px;
+}
+.section-container .columns.content .content-container h5
+{
+font-size: 30px;
+}
